@@ -6,7 +6,7 @@ from matplotlib import font_manager
 if platform.system() == "Darwin":  #Mac
     plt.rc('font', family='AppleGothic')
 else:
-    font_path = 'C:/Windows/Fonts/malgun.ttf' # For Windows 
+    font_path = "C:/Windows/Fonts/gulim.TTC"  # For Windows 
     font_name = font_manager.FontProperties(fname=font_path).get_name()  
     plt.rc('font', family=font_name)                           
 
